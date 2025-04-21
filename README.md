@@ -86,13 +86,7 @@ node index.js
 
 ---
 
-## ⚠️ Observações
-
-- A função `deleteItem` em `cart.js` possui um erro: a variável `index` não está definida. É necessário localizar o índice do item com o nome especificado antes de tentar removê-lo.
-  
-```js
-const index = userCart.findIndex(item => item.name === name);
-```
+## ⚠️ Consideração
 
 - O projeto é assíncrono, mas por enquanto não há operações de I/O que exigiriam `async`. Pode-se otimizar retirando os `async` se desejar.
 
