@@ -2,6 +2,10 @@
 
 Este projeto simula um carrinho de compras simples em JavaScript, com funcionalidades de adicionar, remover, exibir itens e calcular o total da compra.
 
+<p align="center">
+  <img src="image/schema.png" alt="Foto do esquema da aplicação" />
+</p>
+
 ## 📁 Estrutura do Projeto
 
 ```
